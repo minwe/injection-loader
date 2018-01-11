@@ -1,0 +1,47 @@
+{
+  "name": "injection-loader",
+  "version": "1.0.0",
+  "description": "Inject static content to file loader for Webpack Edit",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "test": "jest",
+    "build": "babel src --out-dir lib",
+    "build:watch": "npm run build -- --watch",
+    "prepublish": "npm run clean && npm run build && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minwe/injection-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-loader",
+    "injection"
+  ],
+  "author": "minwe <hegfirose@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minwe/injection-loader/issues"
+  },
+  "homepage": "https://github.com/minwe/injection-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "schema-utils": "^0.4.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.0.6",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.0.6",
+    "memory-fs": "^0.4.1",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "pre-commit": [
+    "test"
+  ]
+}
