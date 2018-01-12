@@ -5,5 +5,5 @@
 ## Example
 
 ```jsx
-__INCLUE_FILE('./example.js')
+__INCLUDE_FILE('./example.js')
 ```

@@ -29,7 +29,7 @@ module.exports = {
           loader: 'injection-loader',
           options: {
             // default pattern
-            pattern: /__INCLUE_FILE\('(.+)'\)/,
+            pattern: /__INCLUDE_FILE\('(.+)'\)/,
           },
         }
       ]
@@ -54,7 +54,7 @@ import md from 'some.md';
 - list 1
 - list 1
 
-__INCLUE_FILE('./injection.txt')
+__INCLUDE_FILE('./injection.txt')
 ```
 
-**Note**: `__INCLUE_FILE` path (`./injection.txt`) should RELATIVE to `some.md`.
+**Note**: `__INCLUDE_FILE` path (`./injection.txt`) should RELATIVE to `some.md`.

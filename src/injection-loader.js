@@ -18,7 +18,7 @@ const schema = {
 };
 
 const DEFAULT_OPTIONS = {
-  pattern: /__INCLUE_FILE\('(.+)'\)/,
+  pattern: /__INCLUDE_FILE\('(.+)'\)/,
 };
 
 export default function injectionLoader(source) {

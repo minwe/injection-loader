@@ -1,6 +1,6 @@
 {
   "name": "injection-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inject static content to file loader for Webpack Edit",
   "main": "index.js",
   "scripts": {

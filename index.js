@@ -1,1 +1,1 @@
-module.exports = require('./lib/in')
+module.exports = require('./lib/injection-loader');
